@@ -9,3 +9,6 @@ print("x is %d, y is %.2f, z is \"%s\"" % (x, y, z))
 
 # The the 'format' string method to print the same thing
 print("x is {}, y is {:.2f}, z is \"{}\"".format(x, y, z))
+
+# f-strings are the hot new thing for Python string interpolation 
+print(f'x is {x}, y is {y}, z is {z}')
